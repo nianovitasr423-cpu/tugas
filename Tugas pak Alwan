@@ -12,8 +12,12 @@ if (Nama=="Carmen" && Password=="09876")
     cout<<"Anda adalah Carmen";
 }
 else if (Nama=="Juun" && Password=="54321")
+{
 cout<<"Anda adalah Juun";
+}
 else
+{
 cout<<"Anda bukan Carmen ataupun Juun";
+}
     return 0;
 }
